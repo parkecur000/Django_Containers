@@ -89,6 +89,9 @@ DATABASES = {
         'PASSWORD' : 'drkettlesiscool',
         'HOST' : 'donut-shop-dev-instance-1.cny41yfauy9n.us-east-2.rds.amazonaws.com',        
         'PORT' : '3306',
+        'OPTIONS' : {
+            'charset' : 'utf8mb4'
+        }
     }
 }
 
