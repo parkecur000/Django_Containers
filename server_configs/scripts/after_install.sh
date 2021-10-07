@@ -1,4 +1,4 @@
-#!bin/bash
+#!/usr/bin/env bash
 
 cd /home/ubuntu/django_app
 mkdir test

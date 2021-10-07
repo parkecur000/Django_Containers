@@ -1,7 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "TEST"
-cd /home/ubuntu
-touch test.txt
 DIR="/home/ubuntu/django_app"
 if [ -d "$DIR" ]; then
     echo "$DIR exists"
