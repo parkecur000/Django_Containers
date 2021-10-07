@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 echo "TEST Before"
+rm /etc/apache2/sites-available/000-default.conf
 # DIR="/home/ubuntu/django_app"
 # if [ -d "$DIR" ]; then
 #     echo "$DIR exists"
