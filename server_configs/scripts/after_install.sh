@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd /home/ubuntu/django_app
-mkdir test
+sudo mkdir test
 cd test
 # python3 -m virtualenv venv
 # source venv/bin/activate
