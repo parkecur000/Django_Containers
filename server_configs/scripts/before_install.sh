@@ -3,7 +3,7 @@ echo "TEST"
 cd /home/ubuntu
 touch test.txt
 DIR="/home/ubuntu/django_app"
-if [-d "$DIR"]; then
+if [ -d "$DIR" ]; then
     echo "$DIR exists"
 else
     echo "Creating $DIR directory"
