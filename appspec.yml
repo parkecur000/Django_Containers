@@ -9,5 +9,6 @@ files:
 hook:
   BeforeInstall:
     - location: server_configs/scripts/before_install.sh
+      runas: root
   AfterInstall:
     - location: server_configs/scripts/after_install.sh
