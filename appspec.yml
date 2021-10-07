@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/django_app
+  - source: server_configs/apache2/000-default.conf
+    destination: /etc/apache2/sites-available/
+    runas: ubuntu
+hook:
+  BeforeInstall:
+    - location: server_configs/scripts/before_install.sh
+  AfterInstall:
+    - location: server_configs/scripts/after_install.sh
