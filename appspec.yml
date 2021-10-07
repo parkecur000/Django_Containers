@@ -8,8 +8,10 @@ files:
     runas: ubuntu
 hook:
   BeforeInstall:
-    - location: /server_configs/scripts/before_install.sh
+    - location: ./server_configs/scripts/before_install.sh
+      timeout: 300
       runas: ubuntu
   AfterInstall:
-    - location: /server_configs/scripts/after_install.sh
+    - location: ./server_configs/scripts/after_install.sh
+      timeout: 300
       runas: ubuntu
