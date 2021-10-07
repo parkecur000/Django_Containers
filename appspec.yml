@@ -8,8 +8,8 @@ files:
     runas: ubuntu
 hook:
   BeforeInstall:
-    - location: /home/ubuntu/django_app/server_configs/scripts/before_install.sh
+    - location: /server_configs/scripts/before_install.sh
       runas: ubuntu
   AfterInstall:
-    - location: /home/ubuntu/django_app/server_configs/scripts/after_install.sh
+    - location: /server_configs/scripts/after_install.sh
       runas: ubuntu
