@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-echo "TEST"
-DIR="/home/ubuntu/django_app"
-if [ -d "$DIR" ]; then
-    echo "$DIR exists"
-else
-    echo "Creating $DIR directory"
-    mkdir $DIR
-fi
+echo "TEST Before"
+# DIR="/home/ubuntu/django_app"
+# if [ -d "$DIR" ]; then
+#     echo "$DIR exists"
+# else
+#     echo "Creating $DIR directory"
+#     mkdir $DIR
+# fi
 
-sudo apt-get update
-sudo apt-get install python3-pip apache2 libapache2-mod-wsgi-py3 libmysqlclient-dev
-sudo pip3 install virtualenv
+# sudo apt-get update
+# sudo apt-get install python3-pip apache2 libapache2-mod-wsgi-py3 libmysqlclient-dev
+# sudo pip3 install virtualenv
