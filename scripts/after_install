@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "TEST after"
+echo "TEST after "
 
 # cd /home/ubuntu/django_app
 # sudo mkdir test
