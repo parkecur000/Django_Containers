@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i^t_s9&m_qii#w@%3g@=%!($sjushhr=0h%o#wd7#zc$cohtg^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["3.21.234.11","3.12.71.124", "13.58.249.187"]
 
 
 # Application definition
@@ -89,6 +89,9 @@ DATABASES = {
         'PASSWORD' : 'drkettlesiscool',
         'HOST' : 'donut-shop-dev-instance-1.cny41yfauy9n.us-east-2.rds.amazonaws.com',        
         'PORT' : '3306',
+        'OPTIONS' : {
+            'charset' : 'utf8mb4'
+        }
     }
 }
 
