@@ -20,7 +20,6 @@ lazy-object-proxy==1.4.3
 mccabe==0.6.1
 mysqlclient==2.0.3
 numpy==1.21.2
-pandas==1.3.2
 pbr==5.5.1
 Pillow==8.0.1
 postgres==3.0.0
