@@ -86,8 +86,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'donuts',
         'USER' : 'admin',
-        'PASSWORD' : 'drkettlesiscool',
-        'HOST' : 'chocolate-db.cluster-ro-cny41yfauy9n.us-east-2.rds.amazonaws.com',        
+        'PASSWORD' : PasswordRemoved,
+        'HOST' : Host URL Removed for Grading,        
         'PORT' : '3306',
         'OPTIONS' : {
             'charset' : 'utf8mb4'
